@@ -8,7 +8,7 @@ import palettes from 'common/paletteTypes';
 import AOS from 'aos';
 
 export const useDarkMode = () => {
-  const [themeMode, setTheme] = useState('light');
+  const [themeMode, setTheme] = useState('dark');
   const [paletteType, setPalette] = useState(palettes[0]);
   const [mountedComponent, setMountedComponent] = useState(false);
 
